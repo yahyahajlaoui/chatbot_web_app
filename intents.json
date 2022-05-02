@@ -1,0 +1,204 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "helllo",
+        "bonjour"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "stage",
+      "patterns": ["pfe", "pfa", "stage pfe", "stage pfa", "stage d'été", "stage ouvrier", "PFE"],
+      "responses": [ "pour plus d'information sur le stage PFE cliquez ici <a href='https://shorturl.ae/fuDQu'>https://shorturl.ae/fuDQu</a> , pour plus d'information sur le stage PFA cliquez ici <a href='https://shorturl.ae/Y3KmQ'>https://shorturl.ae/Y3KmQ</a> , pour plus d'information sur le stage d'ete cliquez ici <a href='https://shorturl.ae/So6NK'>https://shorturl.ae/So6NK</a> , pour les procédure des stage/PFE cliquez ici <a href='https://shorturl.ae/nOn0H'>https://shorturl.ae/nOn0H</a> "]
+    },
+    {
+      "tag": "clubs",
+      "patterns": ["quel sont les clubs de l'ENET'COM", "quel sont les clubs", "clubs"],
+     "responses": ["on a 15 clubs dans l'ENET'COM qui sont : NATEG TUNISIA , Aeromodelisme , Robotique , Junior ... voici le lien <a href='https://shorturl.ae/aDCwd'>https://shorturl.ae/aDCwd "]
+    },
+    {
+      "tag": "sport",
+      "patterns": [
+        "activite sportive",
+        "activité sportive",
+        "sport",
+        "sports",
+        "activite sportif"
+      ],
+      "responses": [
+        "l'ENET'com a des activites sportives variantes . voici le lien pour consulter les differentes activites sportives de l'ecole <a href='https://shorturl.ae/eSOaQ'>https://shorturl.ae/eSOaQ</a>  "
+      ]
+    },
+    {
+      "tag": "salle 2eme etage",
+      "patterns": [
+        "c21",
+        "c21",
+        "where is c21 ?",
+        "ou se trouve la salle c21 ?",
+        "ou se trouve la salle c21 ?",
+        "ou est c21",
+        "c22",
+        "c22",
+        "where is c22 ?",
+        "ou se trouve la salle c22 ?",
+        "ou se trouve la salle c22 ?",
+        "ou est c22",
+        "c23",
+        "c23",
+        "where is c23 ?",
+        "ou se trouve la salle c23 ?",
+        "ou se trouve la salle c23 ?",
+        "ou est c23",
+        "c24",
+        "c24",
+        "where is c24 ?",
+        "ou se trouve la salle c24 ?",
+        "ou se trouve la salle c24 ?",
+        "ou est c24",
+        "c25",
+        "c25",
+        "where is c25 ?",
+        "ou se trouve la salle c25 ?",
+        "ou se trouve la salle c25 ?",
+        "ou est c25",
+        "c25",
+        "c25"
+
+      ],
+      "responses": [
+        "La salle est a la 2eme etage" 
+      ]
+    },
+    {
+      "tag": "salle 1ere",
+      "patterns": [
+        "c11",
+        "c11",
+        "where is c11 ?",
+        "ou se trouve la salle c11 ?",
+        "ou se trouve la salle c11 ?",
+        "ou est c11",
+        "c12",
+        "c12",
+        "where is c12 ?",
+        "ou se trouve la salle c12 ?",
+        "ou se trouve la salle c12 ?",
+        "ou est c12",
+        "c13",
+        "c13",
+        "where is c13 ?",
+        "ou se trouve la salle c13 ?",
+        "ou se trouve la salle c13 ?",
+        "ou est c13",
+        "c14",
+        "c14",
+        "where is c14 ?",
+        "ou se trouve la salle c14 ?",
+        "ou se trouve la salle c14 ?",
+        "ou est c14",
+        "c15",
+        "c15",
+        "where is c15 ?",
+        "ou se trouve la salle c15 ?",
+        "ou se trouve la salle c15 ?",
+        "ou est c15",
+        "c15",
+        "c15"
+
+      ],
+      "responses": [
+        "La salle est a la 1ere etage" 
+      ]
+    },
+    {
+      "tag": "salle rdc",
+      "patterns": [
+        "c01",
+        "c1",
+        "where is c01 ?",
+        "ou se trouve la salle c01 ?",
+        "ou se trouve la salle c1 ?",
+        "ou est c01",
+        "c02",
+        "c2",
+        "where is c02 ?",
+        "ou se trouve la salle c02 ?",
+        "ou se trouve la salle c2 ?",
+        "ou est c02",
+        "c03",
+        "c3",
+        "where is c03 ?",
+        "ou se trouve la salle c03 ?",
+        "ou se trouve la salle c3 ?",
+        "ou est c03",
+        "c04",
+        "c4",
+        "where is c04 ?",
+        "ou se trouve la salle c04 ?",
+        "ou se trouve la salle c4 ?",
+        "ou est c04",
+        "c05",
+        "c5",
+        "where is c05 ?",
+        "ou se trouve la salle c05 ?",
+        "ou se trouve la salle c5 ?",
+        "ou est c05",
+        "c05",
+        "c5"
+
+      ],
+      "responses": [
+        "La salle est a la RDC" 
+      ]
+    },
+    {
+      "tag": "4c",
+      "patterns": [
+        "4c",
+        "c'est quoi le 4c",
+        "what is 4c",
+        "Centre de Carrières et de Certification des Compétences"
+      ],
+      "responses": [
+        "La Mission du 4C est de preparer et d'accompagner ses usagers en vue de faciliter leur insertion sur le marche du travail. Voici le lien :<a href='https://shorturl.ae/k3sMA'>https://shorturl.ae/k3sMA</a> "
+       
+      ]
+    },
+    {
+      "tag": "enseignant",
+      "patterns": [
+        "enseignants",
+        "enseignant",
+        "prof",
+        "profs",
+        "les noms des enseignants"
+      ],
+      "responses": [
+         "Voici la liste des enseignants de lENET'Com <a href='https://shorturl.ae/8Uyvi'>https://shorturl.ae/8Uyvi</a> "
+       
+      ]
+    }
+  ]
+}
